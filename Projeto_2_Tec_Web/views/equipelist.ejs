@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+	<h1 class="text-center title-1"> Lista de Equipes </h1>
+	<ul>
+		<table> 
+			
+		<% equipelist.forEach(function(equipe){ %>
+		<tr>
+			<td><%= equipe.equipe %></td>
+			<td><%= equipe.pokémon %></td>
+		</tr>
+		<%})%>
+		</table>
+	</ul>
+</body>
+</html>
